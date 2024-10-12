@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lore Olympus Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo"> LORE OLYMPUS </div>
+      <ul class="nav-links">
+        <li><a href="#characters">Characters</a></li>
+        <li><a href="#manhwa-carousel">Manhwa Carousel</a></li>
+        <li><a href="#more-info">More Info</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1 class="animated-text">Lore Olympus: Jaw Dropping Seen on Media</h1>
+      <p>A Webtoon Experience Like No Other</p>
+    </div>
+  </header>
+
+  <!-- Character Section -->
+  <section id="characters" class="character-section">
+    <h2>Main Characters</h2>
+    <div class="characters">
+      <div class="character">
+        <img src="images/charachter1.png" alt="Character 1">
+        <div class="character-details">Persephone - Goddess of Spring</div>
+      </div>
+      <div class="character">
+        <img src="images/charachter2.png" alt="Character 2">
+        <div class="character-details">Hades - God of the Underworld</div>
+      </div>
+      <div class="character">
+        <img src="images/charachter3.png" alt="Character 3">
+        <div class="character-details">Zeus - King of Gods</div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Carousel Section -->
+    <div>
+        <div class="carousel">
+            <h2>Manhwa</h2>
+          <ul class="slides">
+            <input type="radio" name="radio-buttons" id="img-1" checked />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="images/manhwa1.png">
+              </div>
+              <div class="carousel-controls">
+                <label for="img-3" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-2" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-2" />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="images/manhwa2.png">
+              </div>
+              <div class="carousel-controls">
+                <label for="img-1" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-3" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-3" />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="images/manhwa3.png">
+              </div>
+              <div class="carousel-controls">
+                <label for="img-2" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-1" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <div class="carousel-dots">
+              <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+              <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+              <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+
+  <!-- Call to Action -->
+  <section id="more-info" class="cta-section">
+    <h2>Ready to dive in?</h2>
+    <a href="https://animemangatoon.com/lore-olympus-webtoon-overview/" target="_blank" >
+    <button class="cta-button">Read More About Lore Olympus</button> 
+    </a>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
